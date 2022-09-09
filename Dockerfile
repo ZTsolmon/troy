@@ -9,5 +9,5 @@ RUN apt-get update
 RUN apt-get install xvfb -y
 RUN apt-get install wkhtmltopdf -y
 WORKDIR /home
-CMD ["/bin/sh","/home/run.sh"]
+CMD ["/bin/bash","/home/run.sh"]
 EXPOSE	5023 
